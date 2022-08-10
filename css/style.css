@@ -1,0 +1,160 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-family: bold;
+    font-size: 28px;
+    line-height: 150%;
+}
+
+body{
+    background: rgb(203, 222, 243)
+    
+}
+
+.main{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+textarea{
+    resize: none;
+    border-radius: 24px;
+    border: none;
+    color: #0A3871;
+}
+
+textarea::placeholder {
+    color: #0A3871;
+}
+
+.texto-entrada{
+   
+    background: none;
+    margin-top: 80px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.texto-entrada:focus{
+    outline: 0; /*tirando contorno do textArea*/
+}
+
+.informacao{/*imagem do ponto de exclamação*/
+    display: block;
+    margin-top: 166px;
+    font-size: 15px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 24px;
+    height: 67px;
+    width: 328px;
+    box-sizing: border-box;
+    transition: 1s;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#botaoCriptografar{
+    background-color: #0A3871;
+    color: white;
+    padding: 5px 70px 0;
+    box-sizing: border-box;
+}
+
+#botaoCriptografar:hover{
+    background-color: #032349;
+}
+
+#botaoDescriptografar{
+    background: #D8DFE8;
+    color: rgb(68, 66, 66);
+    margin-left: 370px;
+    padding: 5px 50px 0;
+}
+
+#botaoDescriptografar:hover{
+    background-color: #84888f;
+}
+
+#resultado{
+    
+    margin-top: 20px;
+    margin-left: 90px;
+    text-align: center;
+    padding: 50px 0px;
+    box-sizing: border-box;
+}
+
+#resultado:placeholder-shown{
+    
+    background-image: url("./assets/boneco.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#resultado:focus{
+    outline: 0;
+}
+
+#copyButton{
+    
+    margin-left: 85px;
+    margin-top: 43px;
+    padding: 5px 120px 0;
+    background: #D8DFE8;
+    color: rgb(68, 66, 66);
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+#copyButton:hover{
+    background-color: #84888f;
+    }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    font-weight: "bold";
+    color: #494242;
+    bottom: 20px;
+    align-items: center;
+}
+
+
+/* imagem do GitHub */
+
+.github{ 
+    justify-content: center;
+    gap: 3.2rem;
+    margin-top: 0.8rem;
+    margin-left: 25px;
+}
+
+.linkedin{ 
+    justify-content: center;
+    gap: 3.2rem;
+    margin-top: 0.8rem;
+    margin-left: 25px;
+    width: 50px;
+}
+
+footer .linkedin-logo{
+    width: 40px;
+}
+
+footer img{
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Decodificador</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <header>
+        
+        <p><a href="https://www.alura.com.br/"  target="_blank"><img class ="logo"src="./assets/Logo.png" alt="logo-alura" > </a></p>
+        
+    </header>
+
+    <main class="main">
+
+        <section class="principal">
+
+            <!--onde o usuário digita a sua mensagem-->
+            <textarea class="texto-entrada" name="input-texto" id="input-texto" maxlength="120" cols="40" rows="6" placeholder="Digite aqui"></textarea>
+            
+            <div class="informacao">
+                <img class= "exclamacao"src="./assets/exclamacao.png" alt="ponto de exclamação">
+                <label for="input-texto">Apenas letras minúsculas e sem acento</label>
+            </div>
+
+             <!--botões-->
+            <div class="button">      
+                <input class="botoes" type="submit" value="CRIPTOGRAFAR" id="botaoCriptografar">
+                <input class="botoes" type="submit" value="DESCRIPTOGRAFAR" id="botaoDescriptografar">
+            </div>
+
+        </section>
+
+        <section class="resultado-tela">
+           
+            <textarea classe="resultado-msg"name="resultado" id="resultado" cols="20" rows="11"placeholder="Nenhuma mensagem encontrada"></textarea>
+            <input class="botoes" type="submit" value="COPIAR" id="copyButton">
+            
+        </section> 
+        <footer>
+        
+            <span class="creditos">©2022 Desenvolvido por Pedro Vargas.</span>
+
+            <p class="github"><a href="https://github.com/PedroHSVargas" target="_blank" rel="externo"><img src="./assets/logo-git_menor.png" alt="ícone do github"></a></p>
+
+            <p class="linkedin"><a href="https://www.linkedin.com/in/pedrohsvargas/" target="_blank" rel="externo"><img class="linkedin-logo" src="./assets/linkedin-logo.png" alt="ícone do github"></a></p>
+
+        </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
